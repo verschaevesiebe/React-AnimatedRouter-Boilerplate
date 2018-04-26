@@ -6,9 +6,9 @@ import Home from "./Home";
 import Subpage from "./Subpage";
 
 const firstChild = props => {
-  const childrenArray = React.Children.toArray(props.children);
-  return childrenArray[0] || null;
-};
+    const childrenArray = React.Children.toArray(props.children);
+    return childrenArray[0] || null;
+  };
 
 class App extends Component {
   render() {
